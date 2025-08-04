@@ -180,53 +180,52 @@ button:hover {
 }
 @media (max-width: 480px) {
   .level {
-    width: 90%;
-    max-width: 330px;
+    width: 95%;
+    max-width: 340px;
   }
 
   .sudoku-container-show {
-    grid-template-columns: repeat(9, 30px);
-    grid-template-rows: repeat(9, 30px);
+    grid-template-columns: repeat(9, 9.5vw);
+    grid-template-rows: repeat(9, 9.5vw);
     padding: 5px;
     margin: 0 auto;
-    max-width: fit-content;
+    max-width: 95vw;
   }
 
   .cell {
-    width: 34px;
-    height: 34px;
-    font-size: 1rem;
+    width: 9.5vw;
+    height: 9.5vw;
+    font-size: 1.2rem;
   }
 
   .heading {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
   }
 
   .subheading {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
   }
 
   .timer,
   .mistake-count {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
   }
 
   .tooltip {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 4px;
   }
 
   .modal-box {
-    width: 70%;
+    width: 80%;
     font-size: 1.2rem;
   }
 
   .replay {
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 8px 16px;
   }
 }
-
