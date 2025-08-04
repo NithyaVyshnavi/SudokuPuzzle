@@ -178,24 +178,24 @@ button:hover {
     opacity: 0;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .level {
     width: 95%;
     max-width: 340px;
   }
 
   .sudoku-container-show {
-    grid-template-columns: repeat(9, 9.5vw);
-    grid-template-rows: repeat(9, 9.5vw);
+    grid-template-columns: repeat(9, 10vw);
+    grid-template-rows: repeat(9, 10vw);
     padding: 5px;
     margin: 0 auto;
     max-width: 95vw;
   }
 
   .cell {
-    width: 9.5vw;
-    height: 9.5vw;
-    font-size: 1.2rem;
+    width: 10vw;
+    height: 10vw;
+    font-size: 1.4rem;
   }
 
   .heading {
