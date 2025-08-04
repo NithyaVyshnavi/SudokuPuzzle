@@ -174,6 +174,49 @@ button:hover {
 }
 @media (max-width: 480px) {
   .level {
-    width: 320px;
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .sudoku-container-show {
+    grid-template-columns: repeat(9, 30px);
+    grid-template-rows: repeat(9, 30px);
+  }
+
+  .cell {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .subheading {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .timer, .mistake-count {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .tooltip {
+    font-size: 1rem;
+    padding: 4px;
+  }
+
+  .modal-box {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+
+  .replay {
+    font-size: 1rem;
+    padding: 8px 16px;
   }
 }
+
