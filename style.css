@@ -3,7 +3,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow-x: hidden;
 }
+
 body {
   background-color: rgb(115, 239, 239);
   display: flex;
@@ -70,6 +72,10 @@ button:hover {
   grid-template-rows: repeat(9, 40px);
   gap: 2px;
   justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .cell {
   width: 40px;
@@ -181,6 +187,9 @@ button:hover {
   .sudoku-container-show {
     grid-template-columns: repeat(9, 30px);
     grid-template-rows: repeat(9, 30px);
+    padding: 5px;
+    margin: 0 auto;
+    max-width: fit-content;
   }
 
   .cell {
@@ -199,7 +208,8 @@ button:hover {
     text-align: center;
   }
 
-  .timer, .mistake-count {
+  .timer,
+  .mistake-count {
     font-size: 1.2rem;
     text-align: center;
   }
@@ -219,5 +229,3 @@ button:hover {
     padding: 8px 16px;
   }
 }
-
-
