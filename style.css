@@ -180,13 +180,13 @@ button:hover {
 }
 @media (max-width: 600px) {
   .level {
-    width: 95%;
+    width: 93%;
     max-width: 340px;
   }
 
   .sudoku-container-show {
-    grid-template-columns: repeat(9, 10vw);
-    grid-template-rows: repeat(9, 10vw);
+    grid-template-columns: repeat(9, 9.7vw);
+    grid-template-rows: repeat(9, 9.7vw);
     padding: 5px;
     margin: 0 auto;
     max-width: 95vw;
@@ -229,3 +229,4 @@ button:hover {
     padding: 8px 16px;
   }
 }
+
